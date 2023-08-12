@@ -24,4 +24,7 @@ usbipd wsl attach --busid <BUS ID>
 ll /dev/
 # identify the device, usually as follows
 sudo chmod a+rw /dev/ttyACM0
+
+# Once done, if you want to be kind
+usbipd wsl detach --busid <BUS ID>
 ```
